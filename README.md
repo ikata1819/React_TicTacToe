@@ -1,13 +1,77 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully styled and interactive Tic-Tac-Toe game built with **React** and **Tailwind CSS**. Play as X or O in a sleek interface that highlights wins, draws, and game turns in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Two-player local gameplay (X vs O)
+- ✅ Real-time game status messages
+- ✅ Victory and draw detection
+- ✅ Stylized UI with TailwindCSS
+- ✅ "Start a New Battle" / Reset button
+- ✅ Highlighted X (pink) and O (blue) moves
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# React_TicTacToe" 
+---
+
+## 🖥️ Live Demo
+
+Check out the game live here:  
+[Play Tic-Tac-Toe Now](https://tictactopia.netlify.app/)
+
+
+---
+
+
+## 🛠️ Technologies Used
+
+- **React** (Functional Components, Hooks)
+- **Tailwind CSS**
+- **JavaScript**
+- **CSS Modules** (`GameBox.css`)
+
+---
+
+## 📁 Project Structure
+
+- src/
+  - Mycomponents/
+    - GameBox.jsx — Main game logic & UI
+    - Head.jsx — game title
+  - styles/
+    - GameBox.css — Optional custom styling
+  - App.jsx
+  - index.js
+
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+- Node.js (v14+ recommended)
+- npm or yarn
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/ikata1819/React_TicTacToe.git
+cd react-tic-tac-toe
+npm install
+npm run dev
+
+```
+---
+## 🧠 Future Enhancements
+
+- 🔥 Highlight winning row
+- 🤖 Add player vs CPU mode
+- 🔊 Add sound effects
+- 🕒 Save game history
+
+## 👩‍💻 Author
+
+**Anika Tasnim**  
+
+Feel free to reach out or check out my other projects!
